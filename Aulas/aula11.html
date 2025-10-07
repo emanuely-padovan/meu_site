@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Aulas/aula11.css">
+    <title>Aula 11 - Tabelas</title>
+</head>
+<body>
+    <h3>Método Antigo:</h3>
+    <table border="1"border="1" cellpadding="10" cellspacing="5" align="center">
+    <tr>
+        <th>Código do Produto</th>
+        <th>Nome do Produto</th>
+        <th>Preço</th>
+    </tr>
+    <tr>
+        <td align="left">GR83432823</td>
+        <td>Maçã</td>
+        <td>R$ 4,50</td>
+    </tr>
+    </table>
+
+    <h3>Método Moderno:</h3>
+    <table style="border: 1px solid black; width: 500px;">
+    <tr>
+        <th>Código do Produto</th>
+        <th>Nome do Produto</th>
+        <th>Preço</th>
+    </tr>
+    <tr>
+        <td>GR83432823</td>
+        <td>Maçã</td>
+        <td>R$ 4,50</td>
+    </tr>
+    </table>
+    
+    <h3>Método com o CSS:</h3>
+    <table>
+    <tr>
+        <th>Código do Produto</th>
+        <th>Nome do Produto</th>
+        <th>Preço</th>
+    </tr>
+    <tr>
+        <td>GR83432823</td>
+        <td>Maçã</td>
+        <td>R$ 4,50</td>
+    </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th colspan="2">Título Abrange 2 Colunas</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Item que Ocupa 2 Linhas</td>
+            <td>Dado Normal 1</td>
+        </tr>
+        <tr>
+            <td>Dado Normal 2</td> 
+        </tr>
+    </table>
+
+    <div style="border: 1px solid black; width: 300px;
+padding: 10px;">
+Conteúdo principal da caixa...
+<br>
+<div style="background-color: lightblue; border:
+1px solid blue; padding: 5px;">
+Caixa de Destaque Interna
+</div>
+</div>
+
+<label for="nome_usuario"> Nome: </label>
+    <form type="text" id="nome_usuario">
+        <input> <br>
+    <textarea id="msg" name="mensagem" rows="6" cols="50"></textarea>
+    </form> 
+
+    <input type="radio" name="pergunrta-a" id="a">
+    <label for="a">
+        HTML
+    </label>
+    <input type="radio" name="pergunta-1" id="b">
+    <label>
+        JAVASCRIPT
+    </label>
+    
+</label>
+
+</body>
+</html>
