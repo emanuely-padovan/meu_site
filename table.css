@@ -1,0 +1,13 @@
+table {
+    width: 80%;
+    border: 2px solid red;
+}
+
+th, td {
+    border: 4px solid green
+}
+
+table th {
+    color: aquamarine;
+    text-align: left;
+}
