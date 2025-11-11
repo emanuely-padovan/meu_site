@@ -33,16 +33,22 @@ nav li {
     display: inline-block
 }
 
+.menu > li a:hover {
+    background-color: #5e3838;
+    color: greenyellow;
+    border: 1px solid black;
+}
+
+nav li a:hover {
+    background-color: #ff0000;
+}
+
 nav li a {
     display: block;
     color: white;
     text-decoration: none;
     padding: 1rem;
     font-weight: bold;
-}
-
-nav li a:hover {
-    background-color: #ff0000;
 }
 
 nav ul ul {
